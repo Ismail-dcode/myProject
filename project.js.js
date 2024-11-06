@@ -1,14 +1,13 @@
-console.log("This is my script")
 
 let result = {
     "tag": "",
     "free": false,
     "role": false,
-    "user": "akshaykumar",
-    "email": "akshaykumar@codewithharry.com",
+    "user": "shaikh",
+    "email": "ismail@shaikh.com",
     "score": 0.64,
     "state": "undeliverable",
-    "domain": "codewithharry.com",
+    "domain": "ismail.com",
     "reason": "invalid_mailbox",
     "mx_found": true,
     "catch_all": null,
@@ -23,7 +22,7 @@ let result = {
 submitBtn.addEventListener("click", async (e) => {
     e.preventDefault()
     console.log("Clicked!")
-    Resultcont.innerHTML = `<img width="37" src="img/loading.svg" alt="">`
+    Resultcont.innerHTML = `<img width="37" src="loading1.svg" alt="">`
     let key = "ema_live_SJdGjS6RCSSNQS93amqvNmApxZXC3An3kzEyfOln"
     let email = document.getElementById("username").value 
     let url = `https://api.emailvalidation.io/v1/info?apikey=${key}&email=${email}`
