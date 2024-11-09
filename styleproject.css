@@ -2,10 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Port+Lligat+Sans&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+}
 *{
   
       
-    
+         
         font-family: "Port Lligat Sans", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -21,7 +25,7 @@ nav{
 }
 nav  ul li a :hover{
 
- font-size: 5rem;
+ font-size: 1rem;
 }
 ul{
     display: flex;
@@ -37,15 +41,82 @@ ul li a{
     text-decoration:none ;
 }
 ul >li> a:hover {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: rgb(168, 78, 241);
 }
 main{
     min-height: 35pc;
     padding: 2px;
 }
+#submitBtn:hover{
+    transform: translateY(-3px);
+    color:rgb(168, 78, 241);
+    
+}
+
+.Bi{
+   margin-top: 230px;
+}
+.Bi{
+    text-align: center;
+    width: 260px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #003135;
+    font-size: 2rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.project_detail {
+    font-size: 1.5rem;
+    color: #000000;
+}
+.Row{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #003135;
+    color: #f4f4f4;
+}
+.projects_skills {
+    font-size: 1.3rem;
+    color: #000000;
+}
+.Api{
+    font-size: 1.3rem;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #003135;
+}
+.api{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#003135;
+}
 
 
+#Contact{
+    font-size: 25px;
+    margin-top: 150px;
+
+}
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:  #003135;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: rgb(130, 12, 130);
+    transform: translateY(-5px);
+
+}
 footer{
     background-color: #003135;
     color: aliceblue;
@@ -59,7 +130,7 @@ footer{
 @media only screen and (max-width: 600px)
 {
     body{
-        background-color: rgb(220, 220, 220);
+        background-color:#fff;
     }
 }
 .container
