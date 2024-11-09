@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E VALIDATOR</title>
     <link rel="stylesheet" href="styleproject.css">
+
+    <script src="https://kit.fontawesome.com/944d189c85.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,9 +20,9 @@
 
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">My Portfolio</a></li>
-                <li><a href="/">Contact Us</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="https://ismail-dcode.github.io/myNewproject/" target="_blank">My Portfolio</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
 
 
             </ul>
@@ -29,17 +31,20 @@
     <main>
         <div class="container">
             <h1>Enter Your Email To Validate</h1>
-            <form action="/submit" method="post">
+            <form name="submit-to-google-sheet">
 
 
 
-                <input placeholder="Enter Your Email To Validate" id="username" name="username" required>
+
+                <input placeholder="Enter Here" id="username" name="username" required>
                 <br><br>
 
 
 
 
                 <input id="submitBtn" class="Btn" type="submit" value="Submit">
+
+
             </form>
         </div>
         <div class="container">
@@ -50,6 +55,44 @@
             </div>
         </div>
 
+
+
+
+
+
+        <h4 id="About"></h4>
+        <h2 class="Bi"><b>About This Project</b></h2>
+        <p class="project_detail">
+            It is an email validator that checks whether the email is in the right format; if
+            not,<br> It indicates that it is incorrect.
+        </p>
+
+        <div class="projects_skills">
+            <pre> <span class="Row"> By Using :</span> HTML & CSS , JavaScript, API [Email validator]</pre>
+        </div>
+        <span  class="Api">Used API In Project  </span>
+        <a href="https://emailvalidation.io/" target="_blank" class="api">
+            <i class="fa-solid fa-link"></i>
+        
+              <span class="Site" >Visit Site</span>
+        </a>
+
+        </section>
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope"></i>ismailpromt2i@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>77xxxxxxx0</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/ismail-shaikh-19798a335/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Ismail-dcode/myProject" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+
+                        </div>
+
     </main>
     <footer>
         Copyright
@@ -58,6 +101,8 @@
 
 
     <script src="project.js.js"></script>
+
+
 </body>
 
 
