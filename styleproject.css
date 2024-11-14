@@ -55,7 +55,7 @@ main{
 }
 
 .Bi{
-   margin-top: 100px;
+   margin-top: 230px;
 }
 .Bi{
     text-align: center;
@@ -81,10 +81,14 @@ main{
     color: #000000;
 }
 .Api{
+    margin-top: 200px; 
     font-size: 1.3rem;
     border-radius: 4px;
     color: #fff;
     background-color: #003135;
+}
+.All{
+   margin-top: 200px;
 }
 .api{
     margin-left: 10px;
@@ -96,7 +100,7 @@ main{
 
 #Contact{
     font-size: 25px;
-    margin-top: 150px;
+    margin-top: 40px;
 
 }
 .social-icons {
